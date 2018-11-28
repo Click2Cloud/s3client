@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/webrtcn/s3client/models"
+	"github.com/Click2Cloud/s3client/models"
 )
 
 //Uploads Multipart Uploads
@@ -28,7 +28,7 @@ type CompletePart struct {
 }
 
 //CompleteUpload CompleteUpload
-type CompleteUpload struct { 
+type CompleteUpload struct {
 	XMLName xml.Name      `xml:"CompleteMultipartUpload"`
 	Parts   CompleteParts `xml:"Part"`
 }

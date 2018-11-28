@@ -5,13 +5,13 @@
 Install the package with:
 
 ```
-go get github.com/webrtcn/s3client
+go get github.com/Click2Cloud/s3client
 ```
 
 Import it with:
 
 ```
-import "github.com/webrtcn/s3client"
+import "github.com/Click2Cloud/s3client"
 ```
 
 ## Support feature list
@@ -50,8 +50,8 @@ package main
 import (
 	"fmt"
 	"testing"
-	. "github.com/webrtcn/s3client"
-	. "github.com/webrtcn/s3client/models"
+	. "github.com/Click2Cloud/s3client"
+	. "github.com/Click2Cloud/s3client/models"
 )
 
 func main {
